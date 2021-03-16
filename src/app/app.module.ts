@@ -12,9 +12,10 @@ import { ContantComponent } from './contant/contant.component';
 
 
 
+
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, HeaderComponent, HomeComponent, FooterComponent, AboutComponent, ContantComponent ],
+  declarations: [ AppComponent, HelloComponent, HeaderComponent, HomeComponent, FooterComponent, AboutComponent, ContantComponent, ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
